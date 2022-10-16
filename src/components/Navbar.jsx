@@ -62,31 +62,31 @@ const Navbar = () => {
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-800">
-            <li className="text-xl p-4 flex">
+            <li className="text-xl p-4 flex cursor-pointer hover:bg-gray-500 rounded-full hover:text-white">
               <TbTruckDelivery size={25} className="mr-4" />
               Orders
             </li>
-            <li className="text-xl p-4 flex">
+            <li className="text-xl p-4 flex cursor-pointer hover:bg-gray-500 rounded-full hover:text-white ">
               <MdFavorite size={25} className="mr-4" />
               Favorites
             </li>
-            <li className="text-xl p-4 flex">
+            <li className="text-xl p-4 flex cursor-pointer hover:bg-gray-500 rounded-full hover:text-white ">
               <FaWallet size={25} className="mr-4" />
               Wallet
             </li>
-            <li className="text-xl p-4 flex">
+            <li className="text-xl p-4 flex cursor-pointer hover:bg-gray-500 rounded-full hover:text-white ">
               <MdHelp size={25} className="mr-4" />
               Help
             </li>
-            <li className="text-xl p-4 flex">
+            <li className="text-xl p-4 flex cursor-pointer hover:bg-gray-500 rounded-full hover:text-white">
               <AiFillTag size={25} className="mr-4" />
               Promotions
             </li>
-            <li className="text-xl p-4 flex">
+            <li className="text-xl p-4 flex cursor-pointer hover:bg-gray-500 rounded-full hover:text-white ">
               <BsFillSaveFill size={25} className="mr-4" />
               Bestsellers
             </li>
-            <li className="text-xl p-4 flex">
+            <li className="text-xl p-4 flex cursor-pointer hover:bg-gray-500 rounded-full hover:text-white ">
               <FaUserFriends size={25} className="mr-4" />
               Invite Friends
             </li>
